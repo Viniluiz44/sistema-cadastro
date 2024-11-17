@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Manutenção</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Manutenção</h1>
+        <nav>
+            
+                <a href="/">Início</a>
+                <a href="cadastrar_equipamento.html">Cadastrar Equipamento</a>
+                <a href="registrar_manutencao.html">Registrar Manutenção</a>
+                <a href="consultar_historico.html">Consultar Histórico</a>
+            
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Bem-vindo ao Sistema de Manutenção</h2>
+            <p>Utilize as opções acima para navegar no sistema.</p>
+            <!-- Botão para criar novo arquivo Excel -->
+            <a href="/criar_arquivo" class="button">📂 Criar Novo Arquivo Excel</a>
+        </div>
+    </main>
+    <footer>
+        <p class="boas_vindas">&copy; 2024 Sistema de Manutenção</p>
+    </footer>
+</body>
+</html>
